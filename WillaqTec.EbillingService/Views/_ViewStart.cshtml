@@ -1,0 +1,8 @@
+﻿@if (User.Identity.IsAuthenticated)
+{
+    Layout = "_DashboardLayout";
+}
+else
+{
+    Layout = "_Layout";
+}

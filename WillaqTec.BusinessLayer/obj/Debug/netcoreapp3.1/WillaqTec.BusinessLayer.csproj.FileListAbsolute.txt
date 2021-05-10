@@ -1,0 +1,16 @@
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.deps.json
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.DataLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.EntityLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.Utilitarian.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.DataLayer.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.EntityLayer.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\bin\Debug\netcoreapp3.1\WillaqTec.Utilitarian.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.csprojAssemblyReference.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.AssemblyInfoInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.AssemblyInfo.cs
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.csproj.CoreCompileInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.csproj.CopyComplete
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.BusinessLayer\obj\Debug\netcoreapp3.1\WillaqTec.BusinessLayer.pdb

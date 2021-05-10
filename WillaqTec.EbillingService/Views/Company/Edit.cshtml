@@ -1,0 +1,41 @@
+﻿@model WillaqTec.CompanyEntity
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Instructor</h4>
+<hr />
+<div class="row">
+    <div class="col-md-8">
+        <form asp-controller="Company" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="CompanyId" />
+            <div class="form-group">
+                <label asp-for="IdentityDocumentNumber" class="control-label"></label>
+                <input asp-for="IdentityDocumentNumber" class="form-control" />
+                <span asp-validation-for="IdentityDocumentNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BusinessName" class="control-label"></label>
+                <input asp-for="BusinessName" class="form-control" />
+                <span asp-validation-for="BusinessName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address" class="control-label"></label>
+                <input asp-for="Address" class="form-control" />
+                <span asp-validation-for="Address" class="text-danger"></span>
+            </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>

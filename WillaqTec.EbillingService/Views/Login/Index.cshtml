@@ -1,0 +1,42 @@
+﻿<div class="login-box">
+    <div class="login-text">
+        <a href="view/portafolio.html"><b>Willaq</b>Tec</a>
+    </div>
+    <!-- Disenio de Acceso -->
+    <div class="login-box-body">
+        <!-- Cargar Imagen de Acceso -->
+        <img class="img-profile img-responsive img-circle" src="~/image/Document.png">
+        <p class="information-login">Sistema Integrado de Gestión Empresarial</p>
+        <!--  Formulario de acceso -->
+        <form asp-controller="Login" asp-action="Login" method="post">
+            <!-- Caja de texto de Usuario -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <select name="Empresa" class="form-control">
+                        <option value="1">Panel de Adminitración</option>
+                        <option value="2">Panel de Empresa</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Caja de texto de Usuario -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="text" min="0" max="20999999999" class="form-control" placeholder="Username" aria-describedby="sizing-addon2" name="Username" value="@ViewData["UserName"]" required>
+                </div>
+            </div>
+            <!-- Caja de texto de Password -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="password" maxlength="8" class="form-control" placeholder="Password" aria-describedby="sizing-addon2" name="Password" value="@ViewData["Password"]" required>
+                </div>
+            </div>
+            <!-- Boton de acceso y solicitud de Registro -->
+            <div>
+                <div>
+                    <input type="submit" class="btn btn-dark btn-block" id="load" data-loading-text="Ingresar" value="Ingresar">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

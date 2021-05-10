@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>WillaqTec</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WillaqTec.BusinessLayer\WillaqTec.BusinessLayer.csproj" />
+    <ProjectReference Include="..\WillaqTec.EntityLayer\WillaqTec.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>

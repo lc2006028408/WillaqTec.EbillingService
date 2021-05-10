@@ -1,0 +1,44 @@
+﻿@model List<WillaqTec.CompanyEntity>
+
+@{
+    ViewData["Title"] = "Empresa";
+}
+
+<h2>Empresa</h2>
+
+<p>
+    <a asp-controller="Company" asp-action="Create">Nueva Empresa</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Numero de Documento de Identidad</th>
+            <th>Empresa</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            string selectedRow = "";
+            if (item.CompanyId == (int?)ViewData["CompanyId"])
+            {
+                selectedRow = "success";
+            }
+            <tr class="@selectedRow">
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdentityDocumentNumber)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.BusinessName)
+                </td>
+                <td>
+                    <a asp-action="Index" asp-route-id="@item.CompanyId">Select</a> |
+                    <a asp-action="Edit" asp-route-id="@item.CompanyId">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.CompanyId">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.CompanyId">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

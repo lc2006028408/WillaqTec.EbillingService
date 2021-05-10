@@ -1,0 +1,378 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic);
+
+
+.main-fund{
+      background: #d2d6de;
+}
+
+.login-box{
+      width: 360px;
+      margin: 10% auto;
+}
+
+@media (max-width: 768px) {
+      .login-box{
+            width: 90%;
+      }
+}
+
+.login-text{
+      font-family: 'Source Sans Pro';
+      font-size: 35px;
+      text-align: center;
+      margin-bottom: 25px;
+      font-weight: 300;
+}
+
+.login-text a, .main-header a{
+      color: #444;
+      text-decoration: none;
+}
+
+.login-box-body{
+      background: #fff;
+      padding: 20px;
+      border-top: 0;
+      color: #666;
+      border-radius: .75em;
+}
+
+.img-profile{
+      margin: 0 auto;
+      width: 100px;
+      padding: 3px;
+      border: 3px solid #d2d6de;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.information-login{
+      margin: 0;
+      text-align: center;
+      padding: 0 20px 20px 20px;
+}
+
+.alert{
+      padding: 5px 10px;
+      margin:  10px 0 0 0;
+}
+
+
+.user-image {
+  float: left;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-top: -2px;
+}
+
+.logo-image {
+
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+
+  margin-top: -2px;
+}
+
+@media (max-width: 767px) {
+.user-image {
+    float: none;
+    margin-right: 0;
+    margin-top: -8px;
+    line-height: 10px;
+  }
+}
+
+.main-header {
+  position: relative;
+  max-height: 100px;
+  z-index: 1030;
+  background: white;
+}
+
+.main-header .logo {
+  -webkit-transition: width 0.3s ease-in-out;
+  -o-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  display: block;
+  float: left;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  width: 230px;
+  font-family: 'Open Sans',"Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0 15px;
+  font-weight: 300;
+  overflow: hidden;
+  z-index: 1;
+}
+.main-header .logo .logo-lg {
+  display: block;
+}
+
+.main-header>.logo {
+    background-color: #fff;
+    color: #333;
+    border-bottom: 0 solid transparent;
+    border-right: 1px solid #eee;
+}
+@media (max-width: 767px){
+  .main-header>.logo {
+      background-color: #222;
+      color: #fff;
+      border-bottom: 0 solid transparent;
+      border-right: none;
+  }
+
+}
+.main-header .navbar {
+  -webkit-transition: margin-left 0.3s ease-in-out;
+  -o-transition: margin-left 0.3s ease-in-out;
+  transition: margin-left 0.3s ease-in-out;
+  margin-bottom: 0;
+  margin-left: 230px;
+  border: none;
+  min-height: 50px;
+  border-radius: 0;
+}
+
+@media (max-width: 767px) {
+  .main-header {
+    position: relative;
+  }
+  .main-header .logo,
+  .main-header .navbar {
+    width: 100%;
+    float: none;
+  }
+  .main-header .navbar {
+    margin: 0;
+  }
+  .main-header .navbar-custom-menu {
+    float: right;
+  }
+}
+
+.main-header .navbar .navbar-nav>li>a {
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.main-header .navbar .nav>li>a>.label {
+      position: absolute;
+      top: 9px;
+      right: 7px;
+      text-align: center;
+      font-size: 9px;
+      padding: 2px 3px;
+      line-height: .9;
+}
+
+.main-header .navbar .nav>li>a {
+    color: #333;
+}
+
+.main-header .navbar .nav>li>a:hover {
+  color: #999;
+}
+
+.box {
+  position: relative;
+  border-radius: 3px;
+  background: #ffffff;
+  border-top: 3px solid #d2d6de;
+  width: 100%;
+  min-height: 100%;
+  height: 100%;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+.box.box-default {
+  border-top-color: #d2d6de;
+}
+
+.box-header {
+  color: #444;
+  display: block;
+  padding: 10px;
+  position: relative;
+}
+
+.box-header.with-border {
+  border-bottom: 1px solid #f4f4f4;
+}
+.box-header .box-title {
+  display: inline-block;
+  font-size: 14px;
+  margin: 0;
+  line-height: 1;
+}
+
+.container-menu
+{
+  border-style: solid;
+  border-width: 0px;
+  border-radius: .75em;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-menu a{
+  display: inline-block;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000\9;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+}
+.carousel-control > .fa {
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  margin-top: -20px;
+}
+section{
+  margin: .75em;
+}
+
+.icon{
+  display: inline-block;
+  width: 125px;
+  height: 125px;
+  padding: 15px;
+  margin: 15px;
+}
+.icon-msg{
+  margin: 0;
+  text-align: center;
+}
+
+
+.footer {
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.content-table, .content-actions{
+padding: 7.5px  15px;
+}
+
+.form-control{
+  text-transform: uppercase;
+}
+
+.container{
+  width: 100%;
+}
+
+/*table.dataTable tbody tr{background-color:#ffffff}table.dataTable tbody tr.selected{background-color:#B0BED9}
+
+thead, tfoot{
+  color: #fff;
+  background-color: #3174ae;
+}*/
+
+.logo-empresa{
+  width: 256px;
+  height: 256px;
+  border-radius: 15px;
+  border-color: #3174ae;
+  border-style: solid;
+  border-width: .5px;
+}
+
+.informacion-empresa{
+      border: 1px;
+      display: inline-block;
+      width: 100%;
+      margin: auto;
+      text-align: left;
+
+}
+
+ .datos-empresa{
+  padding: 15px 15px;
+  margin-top: 5px;
+  border-style: solid;
+  border-width: .5px;
+  border-radius: 15px;
+  border-color: #3174ae;
+  }
+
+.imagen-empresa, .datos-empresa{
+  width: 100%;
+  height: 268px;
+}
+
+.accion-empresa{
+  padding: 5px 5px;
+}
+
+.glyphicon.spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+.glyphicon-left {
+    margin-right: 7px;
+}

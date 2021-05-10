@@ -1,0 +1,9 @@
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\bin\Debug\netcoreapp3.1\WillaqTec.Utilitarian.deps.json
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\bin\Debug\netcoreapp3.1\WillaqTec.Utilitarian.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\bin\Debug\netcoreapp3.1\WillaqTec.Utilitarian.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.csprojAssemblyReference.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.AssemblyInfoInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.AssemblyInfo.cs
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.csproj.CoreCompileInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.Utilitarian\obj\Debug\netcoreapp3.1\WillaqTec.Utilitarian.pdb

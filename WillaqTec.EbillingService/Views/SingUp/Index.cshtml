@@ -1,0 +1,69 @@
+﻿<div class="login-box">
+    <div class="login-text">
+        <a href="view/portafolio.html"><b>Registrese</b></a>
+    </div>
+    <!-- Disenio de Acceso -->
+    <div class="login-box-body">
+        <!-- Cargar Imagen de Acceso -->
+        @*<img class="img-profile img-responsive img-circle" src="~/image/Document.png">
+        <p class="information-login">Registrese</p>*@
+        <!--  Formulario de acceso -->
+        <form asp-controller="SingUp" asp-action="SingUp" method="post">
+            <!-- Combo de tipo de documento-->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <select name="IdentityDocumentTypeId" class="form-control">
+                        <option value="1">Documento Nacional de Identidad</option>
+                        <option value="2">Passaporte</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Caja de Texto Numero de Documento de Identidad -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="text" maxlength= 8 class="form-control" placeholder="Numero de Documento de Identidad" aria-describedby="sizing-addon2" name="IdentityDocumentTypeNumber" required>
+                </div>
+            </div>
+            <!-- Caja de Texto Apellido Paterno -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="text" min="0" class="form-control" placeholder="Apellido Paterno" aria-describedby="sizing-addon2" name="FatherLastName"  required>
+                </div>
+            </div>
+            <!-- Caja de Texto Apellido Materno -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="text" min="0"class="form-control" placeholder="Apellido Materno" aria-describedby="sizing-addon2" name="MotherLastName"  required>
+                </div>
+            </div>
+            <!-- Caja de Texto Nombre -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="text" min="0"  class="form-control" placeholder="Nombre" aria-describedby="sizing-addon2" name="Name"  required>
+                </div>
+            </div>
+
+            <!-- Caja de Texto Email -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="email"  class="form-control" placeholder="Correo Electronico" aria-describedby="sizing-addon2" name="Email"  required>
+                </div>
+            </div>
+
+            <!-- Caja de texto de Password -->
+            <div class="form-group has-feedback">
+                <div class="input-group">
+                    <input type="password" maxlength="8" class="form-control" placeholder="Password" aria-describedby="sizing-addon2" name="Password" required>
+                </div>
+            </div>
+
+
+            <!-- Boton de acceso y solicitud de Registro -->
+            <div>
+                <div>
+                    <input type="submit" class="btn btn-dark btn-block" id="load" data-loading-text="Registrar" value="Registrar">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

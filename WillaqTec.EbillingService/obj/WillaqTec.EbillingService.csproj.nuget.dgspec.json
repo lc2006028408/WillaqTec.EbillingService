@@ -1,0 +1,316 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EbillingService\\WillaqTec.EbillingService.csproj": {}
+  },
+  "projects": {
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\WillaqTec.BusinessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\WillaqTec.BusinessLayer.csproj",
+        "projectName": "WillaqTec.BusinessLayer",
+        "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\WillaqTec.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\WillaqTec.DataLayer.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\WillaqTec.DataLayer.csproj"
+              },
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\WillaqTec.DataLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\WillaqTec.DataLayer.csproj",
+        "projectName": "WillaqTec.DataLayer",
+        "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\WillaqTec.DataLayer.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.DataLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj"
+              },
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\WillaqTec.Utilitarian.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\WillaqTec.Utilitarian.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.90, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EbillingService\\WillaqTec.EbillingService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EbillingService\\WillaqTec.EbillingService.csproj",
+        "projectName": "WillaqTec.EbillingService",
+        "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EbillingService\\WillaqTec.EbillingService.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EbillingService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\WillaqTec.BusinessLayer.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.BusinessLayer\\WillaqTec.BusinessLayer.csproj"
+              },
+              "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj": {
+                "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj",
+        "projectName": "WillaqTec.EntityLayer",
+        "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\WillaqTec.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.EntityLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\WillaqTec.Utilitarian.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\WillaqTec.Utilitarian.csproj",
+        "projectName": "WillaqTec.Utilitarian",
+        "projectPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\WillaqTec.Utilitarian.csproj",
+        "packagesPath": "C:\\Users\\luis_\\.nuget\\packages\\",
+        "outputPath": "D:\\BigBoss\\Web\\WillaqTec.EbillingService\\WillaqTec.Utilitarian\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\luis_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

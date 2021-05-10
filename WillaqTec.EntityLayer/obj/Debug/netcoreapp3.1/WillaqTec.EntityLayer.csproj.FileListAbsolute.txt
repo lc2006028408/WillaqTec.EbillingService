@@ -1,0 +1,9 @@
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\bin\Debug\netcoreapp3.1\WillaqTec.EntityLayer.deps.json
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\bin\Debug\netcoreapp3.1\WillaqTec.EntityLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\bin\Debug\netcoreapp3.1\WillaqTec.EntityLayer.pdb
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.csprojAssemblyReference.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.AssemblyInfoInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.AssemblyInfo.cs
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.csproj.CoreCompileInputs.cache
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.dll
+D:\BigBoss\Web\WillaqTec.EbillingService\WillaqTec.EntityLayer\obj\Debug\netcoreapp3.1\WillaqTec.EntityLayer.pdb
